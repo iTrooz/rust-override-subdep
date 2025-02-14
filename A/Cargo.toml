@@ -1,0 +1,10 @@
+[package]
+name = "A"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+B = { path = "../B" }
+
+[patch.crates-io]
+home = { path = "../home-patch" }
